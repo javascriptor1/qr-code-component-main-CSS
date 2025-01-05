@@ -12,43 +12,40 @@
 }
 
 body {
-  font-size: 15px;
-  font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   background-color: var(--light-gray);
-  display: grid;
-  place-content: center;
-}
-.qr-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: var(--white);
-  width: 320px;
-  padding: 16px;
-  border-radius: 20px;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
 }
 
-img {
-  width: 100%;
+main {
+  background-color: var(--white);
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 94px;
+  border-radius: 20px;
+  max-width: 375px;
+  /* display: flex;
+  flex-direction: column; */
+  padding: 16px;
+  height: 500px;
+}
+img[src="images/image-qr-code.png"] {
+  width: 288px;
   border-radius: 8px;
 }
 
 h1 {
-  margin: 16px 0;
-  color: var(--dark-blue);
-  font-size: 1.5rem;
+  font-size: 22px;
   text-align: center;
-
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    color: var(--grayish-blue);
-    padding: 6px;
-    text-align: center;
-    padding-bottom: 16px;
-    font-weight: 400;
-}
-
-footer {
-    margin-top: 32px;
+  text-align: center;
 }
