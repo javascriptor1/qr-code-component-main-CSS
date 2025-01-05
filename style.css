@@ -35,15 +35,14 @@ main {
 }
 img[src="images/image-qr-code.png"] {
   width: 288px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 h1 {
   font-size: 22px;
   text-align: center;
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0 13px 0;
 }
 
 p {
