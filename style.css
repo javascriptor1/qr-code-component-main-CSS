@@ -27,8 +27,7 @@ main {
   margin-right: 28px;
   margin-top: 94px;
   border-radius: 20px;
-  max-width: 375px;
-  direction: column;
+  max-width: 320px;
   padding: 16px;
   height: 500px;
 }
@@ -48,4 +47,10 @@ h1 {
 p {
   text-align: center;
   color: var(--grayish-blue);
+}
+
+@media (min-width: 1280px) {
+  main {
+    margin-top: 3px;
+  }
 }
